@@ -1,0 +1,92 @@
+/*
+NAME: Mohammed kabir
+DATE: 05/25/2022
+DESCRIPTION: This is my CSS file, it styles all my html contents
+*/
+body {
+    background-color: #c7f9cc;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+}
+
+td, th {
+    border: 2px solid #0e0d0d;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: darkblue;
+    text-decoration: none;
+    width: 100px;
+    padding: 25px 20px;
+    font-size: 10pt;
+    font-weight: bold;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: grey;
+}
+
+.instagram {
+    margin: 0;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.linkedin {
+    margin: 0;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.statue {
+    width: 50%;
+    height: 50%;
+}
+
+p {
+    font-size: 15pt;
+}
+
+.title {
+    font-family: sans-serif;
+    margin-left: 500px;
+    text-shadow: 2px 4px white;
+}
+
+hr {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: grey;
+}
+
+.shadow {
+    box-shadow: 2px 2px 10px black;
+}
+
+h2 {
+    color: #03045e;
+}
